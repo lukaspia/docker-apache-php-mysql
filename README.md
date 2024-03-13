@@ -1,6 +1,11 @@
 # Development environment
 Docker environment required to run php web application.
 
+![GitHub Release](https://img.shields.io/github/v/release/lukaspia/docker-apache-php-mysql)
+![GitHub License](https://img.shields.io/github/license/lukaspia/docker-apache-php-mysql)
+
+[Source](https://github.com/lukaspia/docker-apache-php-mysql.git)
+
 ## Requirements
 * Docker
 * Docker compose
@@ -55,3 +60,6 @@ Docker environment required to run php web application.
 * Phpadmin port: 8080:80 [http://localhost:8080](http://localhost:8080)
 * Mailpit web ui port: 8025:8025 [http://localhost:8025](http://localhost:8025)
 * Mailpit smtp server port: 1025:1025
+
+## License
+[MIT](https://github.com/lukaspia/docker-apache-php-mysql/blob/main/LICENSE)
