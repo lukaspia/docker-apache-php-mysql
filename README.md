@@ -61,5 +61,11 @@ Docker environment required to run php web application.
 * Mailpit web ui port: 8025:8025 [http://localhost:8025](http://localhost:8025)
 * Mailpit smtp server port: 1025:1025
 
+## Tips
+* Set virtual host (windows): 
+  
+   Edit %SystemRoot%\system32\drivers\etc\hosts by add for example: ```127.0.0.1 [project-name].local```
+* Database host name: mysql (no localhost!)
+
 ## License
 [MIT](https://github.com/lukaspia/docker-apache-php-mysql/blob/main/LICENSE)
