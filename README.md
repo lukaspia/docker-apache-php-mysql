@@ -45,6 +45,8 @@ Docker environment required to run php web application.
 5. Edit docker/000-default.conf <span style="color: red">*</span>
    - DocumentRoot - path to project index file (def: /var/www/html/, example: /var/www/html/[app-name]/public)
    - Directory - same as DocumentRoot
+7. Edit docker/xdebug.ini
+   - delete ```xdebug.start_with_request = yes``` and set ```xdebug.discover_client_host = 1``` if "Xdebug helper" browser extension in use.
 6. Start compose and environment
    ```bash
     docker-compose up -d
