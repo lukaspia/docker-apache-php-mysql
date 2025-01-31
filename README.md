@@ -43,7 +43,7 @@ Docker environment required to run php web application.
 4. Edit docker/Dockerfile
    - FROM php:[version] - set php version (def: apache - last version)
 5. Edit docker/000-default.conf <span style="color: red">*</span>
-   - DocumentRoot - path to project index file (def: /var/www/html/, example: /var/www/html/[app-name]/public)
+   - DocumentRoot - path to project index file (def: /var/www/html/, symfony example: /var/www/html/[app-name]/public, wordpress example: /var/www/html/)
    - Directory - same as DocumentRoot
 7. Edit docker/xdebug.ini
    - delete ```xdebug.start_with_request = yes``` and set ```xdebug.discover_client_host = 1``` if "Xdebug helper" browser extension in use.
