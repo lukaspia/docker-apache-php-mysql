@@ -36,6 +36,10 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
     && docker-php-ext-configure pdo_mysql --with-pdo-mysql=mysqlnd \
     && docker-php-ext-configure intl \
     && docker-php-ext-install \
+      ctype \
+      iconv \
+      simplexml \
+      xmlwriter \
       pdo_mysql \
       mysqli \
       pdo \
